@@ -5,8 +5,8 @@ module.exports = {
   url: 'https://github.com/pagesource/universal-react-v2',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'Publicis Sapient', // Usually your GitHub org/user name.
-  projectName: 'universal-react', // Usually your repo name.
+  organizationName: 'pagesource', // Usually your GitHub org/user name.
+  projectName: 'pagesource.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Universal React',
