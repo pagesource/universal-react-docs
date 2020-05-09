@@ -2,7 +2,7 @@ module.exports = {
   title: 'Universal React',
   tagline:
     'A community accepted and reliable Front End Dev Ecosystem based on React & Next',
-  url: 'https://github.com/pagesource/universal-react-v2',
+  url: 'https://pagesource.github.io/universal-react-v2',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'pagesource', // Usually your GitHub org/user name.
