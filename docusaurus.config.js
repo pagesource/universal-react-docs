@@ -2,11 +2,11 @@ module.exports = {
   title: 'Universal React',
   tagline:
     'A community accepted and reliable Front End Dev Ecosystem based on React & Next',
-  url: 'https://pagesource.github.io/universal-react-v2',
-  baseUrl: '/',
+  url: 'https://github.com/pagesource/',
+  baseUrl: '/universal-react-docs/',
   favicon: 'img/favicon.ico',
   organizationName: 'pagesource', // Usually your GitHub org/user name.
-  projectName: 'universal-react-v2', // Usually your repo name.
+  projectName: 'universal-react-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Universal React',
