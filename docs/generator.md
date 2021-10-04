@@ -1,3 +1,9 @@
+---
+id: generator
+title: Generator
+sidebar_label: Generator
+---
+
 # How do I create a component? Is there a Scaffolding?
 
 You can use our in-built generators to scaffold your components be it atoms, molecules, organisms or templates. Just running will command will start the generator, post which prompts will be asked for the name and other details. For page level components it will also ask if a page entry need to be added.
