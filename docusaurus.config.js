@@ -2,8 +2,8 @@ module.exports = {
   title: 'Universal React',
   tagline:
     'A community accepted and reliable Front End Dev Ecosystem based on React & Next',
-  url: 'https://github.com/pagesource/',
-  baseUrl: '/universal-react-docs/',
+  url: 'https://github.com/',
+  baseUrl: '/pagesource/universal-react-docs/',
   favicon: 'img/favicon.ico',
   organizationName: 'pagesource', // Usually your GitHub org/user name.
   projectName: 'universal-react-docs', // Usually your repo name.
@@ -14,7 +14,7 @@ module.exports = {
         alt: 'Universal React Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/intro',
           activeBasePath: 'docs',
