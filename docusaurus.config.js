@@ -21,7 +21,6 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/pagesource/universal-react-v2',
           label: 'GitHub',
@@ -36,12 +35,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Getting Started',
               to: 'docs/intro',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
             },
           ],
         },

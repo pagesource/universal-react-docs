@@ -8,12 +8,12 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>What is this?</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Creates a boilerplate which will help project teams in building applications with great quality,
+        by giving them more time to focus on business problems rather than web development chores.
       </>
     ),
   },
@@ -22,8 +22,8 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Has balanced focus to Static Code Quality,
+        Performance, Processes, Security, Testability and Best Practices.
       </>
     ),
   },
@@ -32,14 +32,43 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Community accepted and reliable Front End Dev Ecosystem based on React & Next.
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+const team = [
+  {
+    title: <>Vinod Kumar</>,
+    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Senior Manager Experience Technology
+      </>
+    ),
+  },
+  {
+    title: <>Achal Jain</>,
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    description: (
+      <>
+        Senior Associate Experience Technology
+      </>
+    ),
+  },
+  {
+    title: <>Salil Kapoor</>,
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+      Senior Associate Experience Technology
+      </>
+    ),
+  },
+];
+
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
@@ -56,7 +85,7 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -83,6 +112,18 @@ function Home() {
             <div className="container">
               <div className="row">
                 {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+        <div className="text--center"><h1>Know our Team</h1></div>
+        {team && team.length && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {team.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
               </div>
