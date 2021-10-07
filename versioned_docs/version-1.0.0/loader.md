@@ -1,6 +1,6 @@
 ---
 id: loader
-title: loader
+title: Loader
 sidebar_label: Loader
 ---
 
