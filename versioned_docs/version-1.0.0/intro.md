@@ -44,3 +44,8 @@ yarn run flow:install
 ```
 
 flow:install will search the [`libdef`](https://github.com/flow-typed/flow-typed/blob/master/README.md) repo and download all the libdefs that are relevant for our project and install them for us.
+
+### Contributors
+
+This project exists thanks to all the people who contribute.
+<a href="https://github.com/pagesource/universal-react-v2/graphs/contributors"><img src="https://opencollective.com/universal-react-v2/contributors.svg?width=890&button=false" /></a>

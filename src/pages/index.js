@@ -38,53 +38,6 @@ const features = [
   },
 ];
 
-const team = [
-  {
-    title: <><a href='https://github.com/vinodloha'>Vinod Kumar</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/8122967?v=4',
-  },
-  {
-    title: <><a href='https://github.com/sunnil24'>Sunil Srivastava</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/15208118?v=4',
-  },
-  {
-    title: <><a href='https://github.com/sunjain1'>sunjain1</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/60086176?v=4',
-  },
-  {
-    title: <><a href='https://github.com/pras9'>pras</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/2662487?v=4',
-  },
-  {
-    title: <><a href='https://github.com/sowmihk'>Sowmya H</a></>,
-    imageUrl: 'img/profile.jpg',
-  },
-  {
-    title: <><a href='https://github.com/rishabhSapient'>Rishabh Agrawal</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/49898177?v=4',
-  },
-  {
-    title: <><a href='https://github.com/vishalverma26'>vishalverma26</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/29516326?v=4',
-  },
-  {
-    title: <><a href='https://github.com/Haeckerzz'>Sharad Rai</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/42551622?v=4',
-  },
-  {
-    title: <><a href='https://github.com/suhas-gopinath'>suhas-gopinath</a></>,
-    imageUrl: 'img/profile.jpg',
-  },
-  {
-    title: <><a href='https://github.com/SahitiReddyKeesari'>Sahiti Reddy Keesari</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/34088582?v=4',
-  },
-  {
-    title: <><a href='https://github.com/achaljain'>Achal Jain</a></>,
-    imageUrl: 'https://avatars.githubusercontent.com/u/13012681?v=4',
-  },
-];
-
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -96,22 +49,6 @@ function Feature({ imageUrl, title, description }) {
       )}
       <h3>{title}</h3>
       <p>{description}</p>
-    </div>
-  );
-}
-
-function Team({ imageUrl, title}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={classnames('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <div className="text--center">
-      <h3>{title}</h3>
-      </div>
     </div>
   );
 }
@@ -145,18 +82,6 @@ function Home() {
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-        <div className="text--center"><h1>Know our Team</h1></div>
-        {team && team.length && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {team.map((props, idx) => (
-                  <Team key={idx} {...props} />
                 ))}
               </div>
             </div>
