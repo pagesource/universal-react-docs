@@ -3,6 +3,7 @@ id: intro
 title: Getting Started
 sidebar_label: Getting Started
 ---
+[![Forks](https://img.shields.io/github/forks/pagesource/universal-react-v2)](https://img.shields.io/github/forks/pagesource/universal-react-v2) [![Stars](https://img.shields.io/github/stars/pagesource/universal-react-v2)](https://img.shields.io/github/stars/pagesource/universal-react-v2) [![License](https://img.shields.io/github/license/pagesource/universal-react-v2)](https://img.shields.io/github/license/pagesource/universal-react-v2)
 
 # Universal React
 
