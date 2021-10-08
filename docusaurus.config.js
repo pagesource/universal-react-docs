@@ -16,7 +16,10 @@ module.exports = {
       },
       items: [
         {
-          type: 'docsVersionDropdown',
+          to: 'docs/intro',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
         },
         {
           href: 'https://github.com/pagesource/universal-react-v2',
