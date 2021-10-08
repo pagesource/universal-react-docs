@@ -45,7 +45,7 @@ yarn add smart-context
 
 ## Breaking changes
 
-v2 introduces new API and features. Refer [v1 docs and example](./docs/v1.md).
+v2 introduces new API and features. Refer [v1 docs and example](https://github.com/pagesource/universal-react/tree/develop/readme).
 
 - `initContext` is removed. Use `WithContextProvider` HOC
 - Support for class components enabled. Added `WithContextConsumer` HOC
@@ -221,10 +221,6 @@ actionName: async (payload) => {
 ### Reset Action
 
 A `reset` action is auto-generated if not provided in config. This action uses flat ES6 spread operator to copy `initialState`. It is recommended to use a custom function in action config, if `initialState` is a deeply nested object
-
-## Contributing
-
-Refer [Contributing Guide](./CONTRIBUTING.md).
 
 ## License
 
