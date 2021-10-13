@@ -2,7 +2,7 @@ module.exports = {
   someSidebar: {
     Introduction: ['intro', 'storybook' ],
     Generators: ['generator'],
-    "Quality Control" : ['qualiy-control'],
-    Features: [],
+    Features: ['qualiy-control','smart-context','unit-testing','design-system','loader','web-component','semantic','logger'],
+    'Optional Features':[],
   },
 };

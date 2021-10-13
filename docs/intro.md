@@ -3,6 +3,7 @@ id: intro
 title: Getting Started
 sidebar_label: Getting Started
 ---
+[![Forks](https://img.shields.io/github/forks/pagesource/universal-react-v2)](https://img.shields.io/github/forks/pagesource/universal-react-v2) [![Stars](https://img.shields.io/github/stars/pagesource/universal-react-v2)](https://img.shields.io/github/stars/pagesource/universal-react-v2) [![License](https://img.shields.io/github/license/pagesource/universal-react-v2)](https://img.shields.io/github/license/pagesource/universal-react-v2)
 
 # Universal React
 
@@ -45,6 +46,7 @@ yarn run flow:install
 
 flow:install will search the [`libdef`](https://github.com/flow-typed/flow-typed/blob/master/README.md) repo and download all the libdefs that are relevant for our project and install them for us.
 
-## How to ramp-up?
+### Contributors
 
-Follow this ramp-up [guide](readme/01-GettingStarted.md)
+This project exists thanks to all the people who contribute.
+<a href="https://github.com/pagesource/universal-react-v2/graphs/contributors"><img src="https://opencollective.com/universal-react-v2/contributors.svg?width=890&button=false" /></a>
