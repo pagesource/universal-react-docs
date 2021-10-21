@@ -42,10 +42,8 @@ This logger collect logs based on different levels and structures them
 };
 ```
 
-This logger util provides two logger initializers:
-- `createLogger`: A basic logger init function that returns a logger which follows the above structure. The init function takes as parameters some optional config values.
-- `browserLogger`: A utility logger init function that returns a logger which follows the above structure and allows only 3 types of logs(browser specific logs): landing, interaction, error. This init function takes as parameters the config settings of the basic logger as well as some optional config values like:
-  - `user`: user info to be set as the value of `userInfo` key of the log structure.
+This logger module provides a logger initializer:
+- `createLogger`: A utility logger init function that returns a logger which follows the above structure along with some auto-logging features:
   - `landingLogs`: takes a boolean value that sets wheather landing logs to be automatically logged or not on url change. Adds an event listener to actively check for url changes.
   - `handleExceptions`: takes a boolean value that sets wheather unhandled syntax/runtime errors/exceptions to be automatically logged or not. Adds an event listener to actively check for such errors.      
 
@@ -53,45 +51,9 @@ This logger util provides two logger initializers:
 
 createLogger:
 ```javascript
-import { createLogger } from '../utils/Logger';
+import createLogger from '../utils/Logger';
 
-const Logger = createLogger({
-  appName: 'application name to be shown in the logs',
-  level: 'info',  // lowest allowed level of log
-  parseUserAgent: true, // return device, browser and os details if true; returns user-agent string if false
-  remoteDataAgregatorUrl: 'http://localhost:4000'  // remote API end-point to post the logs 
-});
-
-Logger.error({ 
-  logInfo: {
-    component: 'Home',
-    subComponent: 'UserCard'
-  }
-  error: {
-    name: 'failed to fetch',
-    attributes: {
-      code: '400',
-      operationName: 'getUserInfo'
-    }
-  },
-  event: {
-    name: 'click',
-    attributes: {
-      targetElement: 'Button',
-      innerText: 'Show More'
-    }
-  }
-  service: {
-    url: '/get-user-info/'
-  },
-});
-```
-
-browserLogger:
-```javascript
-import { browserLogger } from '../utils/Logger';
-
-const createLoggerConfig = {
+const loggerConfig = {
   appName: 'application name to be shown in the logs',
   level: 'info',  // lowest allowed level of log
   parseUserAgent: true, // return device, browser and os details if true; returns user-agent string if false
@@ -103,8 +65,8 @@ const user = {
   id: '101'
 }
 
-const Logger = browserLogger({
-  loggerConfig: createLoggerConfig,
+const Logger = createLogger({
+  loggerConfig,
   user,
   landingLogs: true,
   handleExceptions: true
@@ -134,5 +96,3 @@ Logger.error({
   },
 });
 ```
-
-
