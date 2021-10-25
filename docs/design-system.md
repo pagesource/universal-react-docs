@@ -13,8 +13,6 @@ A consistent design system is integrated to the all of the app types by using `s
 
 `styled-components` provides `<ThemeProvider>` component which accepts a `theme` prop (json). The `<ThemeProvider>` is kept at the highest level in the component chain. This allows all of the components within it to inherit the `theme` prop. In case of our Next.js app the `<ThemeProvider>` is added in `src/pages/_app.js`.
 
-----
-
 ## How to use
 1. Create a theme using [Theme Manager](http://theme-manager.com). Download the theme and store it as `src/themes/theme.js`.
 2. Now in all `styled-component`, theme prop is available to use as following:
