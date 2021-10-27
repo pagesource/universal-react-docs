@@ -1,6 +1,7 @@
-## Provider
+### Provider
 
-### next.config.js
+#### next.config.js
+'''
 module.exports = {
   reactStrictMode: true,
   webpack: (config, options) => {
@@ -12,7 +13,7 @@ module.exports = {
         exposes: {
          "./Button": "./src/Button",
         },
-        shared: { ...deps react: { singleton: true, eager:true, requiredVersion: deps.react, }, 'react-dom': { singleton: true,eager:true , requiredVersion: deps["react-dom"]} 
+        shared: {  react: { singleton: true, eager:true, requiredVersion: deps.react, }, 'react-dom': { singleton: true,eager:true , requiredVersion: deps["react-dom"]} 
         },
       })
     );
@@ -20,10 +21,11 @@ module.exports = {
     return config;
   },
 }
+'''
+### Remote
 
-## Remote
-
-### next.config.js
+#### next.config.js
+'''
 const deps = require("./package.json").dependencies;
 module.exports = {
   reactStrictMode: true,
@@ -42,9 +44,11 @@ module.exports = {
     return config;
   },
 }
+'''
 
 ### index.js
 
+'''
 import dynamic from "next/dynamic";
 
 const SharedButton = dynamic(
@@ -59,3 +63,5 @@ const SharedButton = dynamic(
 export default function MyPage() {
   return <SharedButton />
 }
+
+'''
