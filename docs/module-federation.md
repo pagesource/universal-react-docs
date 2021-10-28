@@ -30,11 +30,11 @@ module.exports = {
   },
 }
 ```
-In this example we are running it on server 5000
+In this example we are running it on server 5000.
 Remote identifies host with it's specified name, here i.e providerApp.The Button componant is exposed and libraries are shared 
 
 ## Remote
-Add the following ModuleFederationPlugin configurations to consume code that is being shared
+Add the following ModuleFederation Plugin configurations to consume code that is being shared
 
 ### next.config.js
 ```jsx
