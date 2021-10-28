@@ -6,7 +6,7 @@ sidebar_label: Module Federation
 # Module Federation Implementation
 
 ## Provider
-Add the following ModuleFederationPlugin configurations to expose code that needs to be shared with other applications
+Add the following ModuleFederation Plugin configurations to expose code that needs to be shared with other applications
 
 ### next.config.js
 ```jsx
