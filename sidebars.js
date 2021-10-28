@@ -3,6 +3,6 @@ module.exports = {
     Introduction: ['intro', 'storybook' ],
     Generators: ['universal-react','generator'],
     Features: ['qualiy-control','smart-context','unit-testing','design-system','loader','web-component','semantic','logger'],
-    'Optional Features':['base-path'],
+    'Optional Features':['base-path','module-federation'],
   },
 };
