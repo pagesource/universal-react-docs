@@ -5,10 +5,12 @@ sidebar_label: Module Federation
 ---
 # Module Federation Implementation
 
-## Host
+## Provider
+Add the following ModuleFederationPlugin configurations to expose code that needs to be shared with other applications
 
 ### next.config.js
 ```jsx
+const deps = require("./package.json").dependencies;
 module.exports = {
   reactStrictMode: true,
   webpack: (config, options) => {
@@ -20,41 +22,38 @@ module.exports = {
         exposes: {
          "./Button": "./src/Button",
         }
+        shared: { ...deps,react: { singleton: true, requiredVersion: deps.react, }, 'react-dom': { singleton: true, requiredVersion: deps["react-dom"]} },
         },
       })
     );
-
     return config;
   },
 }
 ```
-
-Remote identifies host with it's specified name.Here the Button componant is exposed.In the same way we can expose react packages
+In this example we are running it on server 5000
+Remote identifies host with it's specified name, here i.e providerApp.The Button componant is exposed and libraries are shared 
 
 ## Remote
+Add the following ModuleFederationPlugin configurations to consume code that is being shared
 
 ### next.config.js
 ```jsx
-const deps = require("./package.json").dependencies;
 module.exports = {
   reactStrictMode: true,
   webpack: (config, options) => {
     const { ModuleFederationPlugin } = options.webpack.container;
     config.plugins.push(
       new ModuleFederationPlugin({
-        
         remotes: {
            providerApp: "providerApp@http://localhost:5000/remoteEntry.js",
         },
-        shared: { ...deps,react: { singleton: true, eager:true, requiredVersion: deps.react, }, 'react-dom': { singleton: true,eager:true , requiredVersion: deps["react-dom"]} },
       })
     );
-
     return config;
   },
 }
 ```
-
+In the above configurations at remotes add the provider url 
 ### index.js
 
 ```jsx
@@ -72,5 +71,4 @@ const SharedButton = dynamic(
 export default function MyPage() {
   return <SharedButton />
 }
-
 ```
