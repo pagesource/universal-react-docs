@@ -23,13 +23,12 @@ module.exports = {
         },
       })
     );
-
     return config;
   },
 }
 ```
 
-Remote identifies host with it's specified name.Here the Button componant is exposed.In the same way we can expose react packages
+Remote identifies host with it's specified name. Here the Button componant is exposed. In the same way we can expose react packages
 
 ## Remote
 
@@ -42,14 +41,12 @@ module.exports = {
     const { ModuleFederationPlugin } = options.webpack.container;
     config.plugins.push(
       new ModuleFederationPlugin({
-        
         remotes: {
            providerApp: "providerApp@http://localhost:5000/remoteEntry.js",
         },
         shared: { ...deps,react: { singleton: true, eager:true, requiredVersion: deps.react, }, 'react-dom': { singleton: true,eager:true , requiredVersion: deps["react-dom"]} },
       })
     );
-
     return config;
   },
 }
@@ -72,5 +69,4 @@ const SharedButton = dynamic(
 export default function MyPage() {
   return <SharedButton />
 }
-
 ```
