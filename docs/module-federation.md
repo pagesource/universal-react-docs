@@ -1,7 +1,14 @@
-### Provider
+---
+id: module-federation
+title: Module Federation
+sidebar_label: Module Federation
+---
+# Module Federation Implementation
 
-#### next.config.js
-'''
+## Host
+
+### next.config.js
+```jsx
 module.exports = {
   reactStrictMode: true,
   webpack: (config, options) => {
@@ -12,8 +19,7 @@ module.exports = {
         filename: "remoteEntry.js",
         exposes: {
          "./Button": "./src/Button",
-        },
-        shared: {  react: { singleton: true, eager:true, requiredVersion: deps.react, }, 'react-dom': { singleton: true,eager:true , requiredVersion: deps["react-dom"]} 
+        }
         },
       })
     );
@@ -21,11 +27,14 @@ module.exports = {
     return config;
   },
 }
-'''
-### Remote
+```
 
-#### next.config.js
-'''
+Remote identifies host with it's specified name.Here the Button componant is exposed.In the same way we can expose react packages
+
+## Remote
+
+### next.config.js
+```jsx
 const deps = require("./package.json").dependencies;
 module.exports = {
   reactStrictMode: true,
@@ -44,11 +53,11 @@ module.exports = {
     return config;
   },
 }
-'''
+```
 
 ### index.js
 
-'''
+```jsx
 import dynamic from "next/dynamic";
 
 const SharedButton = dynamic(
@@ -64,4 +73,4 @@ export default function MyPage() {
   return <SharedButton />
 }
 
-'''
+```
