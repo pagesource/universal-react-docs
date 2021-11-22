@@ -221,7 +221,3 @@ actionName: async (payload) => {
 ### Reset Action
 
 A `reset` action is auto-generated if not provided in config. This action uses flat ES6 spread operator to copy `initialState`. It is recommended to use a custom function in action config, if `initialState` is a deeply nested object
-<!--
-## License
-
- [MIT licensed](./LICENSE). -->
