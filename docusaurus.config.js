@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'pagesource', // Usually your GitHub org/user name.
   projectName: 'universal-react-docs', // Usually your repo name.
+  trailingSlash: true,
   themeConfig: {
     navbar: {
       title: 'Universal React',
