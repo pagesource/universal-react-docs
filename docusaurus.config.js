@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Universal React',
+  title: 'Universal React Docs',
   tagline:
     'A community accepted and reliable Front End Dev Ecosystem based on React & Next',
   url: 'https://github.com/',
