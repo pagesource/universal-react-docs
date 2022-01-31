@@ -9,7 +9,7 @@ the team to maintain consistency and saves good time.
 This tool will generate typescript files by default. However, we can generate
 javascript files as well by passing --js in script command.
 
-## generate-plop workflow
+## Workflow diagram
 
-![workflow diagram](blob:https://whimsical.com/fdb0d398-2cbb-47c8-971f-c402d986c39c)
+![generate-plop](https://s10.gifyu.com/images/workflow.png)
 
