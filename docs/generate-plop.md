@@ -84,3 +84,6 @@ services.
 Files created by generate-plop tool are:
 - ````{name}.ts```` Service created using react-query
 - ````types/common.ts```` Interface for default props used in the service (*Only for Typescript*)
+
+## Refrences 
+[Plop documetation](https://plopjs.com/documentation/)
