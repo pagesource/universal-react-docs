@@ -51,3 +51,39 @@ Based on all details provided generate-tool will create follwoing files:
  - ````{name}.style.ts```` Style file for the component using [Styled Component framework](https://styled-components.com/)
  - ````{name}.story.ts```` [Storybook](https://storybook.js.org/) created for the component.
  
+### Hooks
+You can create [React custom hooks](https://reactjs.org/docs/hooks-custom.html). You 
+will need to provide name for the hook.
+The custom hook will be created in ````src/hooks ```` directory. generate-tool 
+will create the following files:
+- ````index.ts```` React custom hook.
+- ````test.ts```` Unit test basic structure for the hook using [React Test Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+### Pages
+You can create [Next pages](https://nextjs.org/docs/basic-features/pages).
+ - You will need to provide the name of the page.
+ - You can provide directory where you want to create the page, default directory 
+    is ````src/pages````.
+ - Tool will create ````index.ts```` Export statement for the custom hook.
+ - It will update the route as well in ````src/routes/paths.ts```` file.
+
+### Stores
+You can create [React context](https://reactjs.org/docs/context.html). Context created
+is [smart-context](https://www.npmjs.com/package/smart-context). It makes state management
+simple. You will need to provide store name. Files created by the tool are:
+ - ````index.ts```` Export statement for the store.
+ - ````contextProvider.ts```` Context will return the provider wrapped component.
+
+### Services
+You can create services using [react-query](https://react-query.tanstack.com/) to fetch
+cache ad create data. You have an option to create rest based services or [graphql](https://graphql.org/) based
+services.
+- Service will be created in ````packages/services```` directory.
+- You will need to choose if it is a graphql call or not.
+- You will need to provide the name of the service.
+Files created by generate-plop tool are:
+- ````{name}.ts```` Service created using react-query
+- ````types/common.ts```` Interface for default props used in the service (*Only for Typescript*)
+
+## Refrences 
+[Plop documetation](https://plopjs.com/documentation/)
