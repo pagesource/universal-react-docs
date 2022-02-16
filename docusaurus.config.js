@@ -8,6 +8,7 @@ module.exports = {
   organizationName: 'pagesource', // Usually your GitHub org/user name.
   projectName: 'universal-react-docs', // Usually your repo name.
   trailingSlash: true,
+  deploymentBranch: 'gh-pages',
   themeConfig: {
     navbar: {
       title: 'Universal React',
