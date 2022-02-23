@@ -5,7 +5,6 @@ module.exports = {
   url: 'https://github.com/',
   baseUrl: '/universal-react-docs/',
   favicon: 'img/favicon.ico',
-  organizationName: 'pagesource', // Usually your GitHub org/user name.
   projectName: 'universal-react-docs', // Usually your repo name.
   trailingSlash: true,
   themeConfig: {
