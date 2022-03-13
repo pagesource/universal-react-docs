@@ -12,8 +12,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Creates a boilerplate which will help project teams in building applications with great quality,
-        by giving them more time to focus on business problems rather than web development chores.
+        This accelerator is a command line tool for generating SSR, SSG & Micro-App type of applications. This enables you to setup a working Micro Frontend or SPA development ecosystem with essential tooling for great dev experience and delivery quality.
       </>
     ),
   },
@@ -22,17 +21,16 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Has balanced focus to Static Code Quality,
-        Performance, Processes, Security, Testability and Best Practices.
+        Lets you focus on business problems rather than web development chores by addressing Architecture, Tooling, Code Quality, Scaffolding, Testing, Best Practices and most importantly Developer experience. 
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>How to get started?</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Community accepted and reliable Front End Dev Ecosystem based on React & Next.
+        Run <strong>npx create-universal-react</strong> This will run the create-universal-react CLI, then you can simply interact with command-prompt to generate 3 different kind of applications in a Monorepo structure.
       </>
     ),
   },

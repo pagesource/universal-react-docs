@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Universal React Docs',
   tagline:
-    'A community accepted and reliable Front End Dev Ecosystem based on React & Next',
+    'An accelerator for setting-up scalable frontend architecture with Next.js and React.',
   url: 'https://github.com/',
   baseUrl: '/universal-react-docs/',
   favicon: 'img/favicon.ico',

@@ -7,44 +7,47 @@ sidebar_label: Getting Started
 
 # Universal React
 
-A community accepted and reliable Front End Dev Ecosystem based on React & Next, that can be utilized as baseline for
-development of all types of projects, to achieve dependable delivery standards. This
-ecosystem doesn&apos;t intend to provide lot of out of the box code/components but a
-well configured development environment and delivery pipeline, having balanced focus to
-Static Code Quality, Performance, Processes, Security, Testability and Best Practices.
-This boilerplate will help project teams in building applications with great quality, by
-giving them more time to focus on business problems rather than web development chores.
+An accelerator for setting-up scalable frontend architecture with Next.js and React.
 
-## Ecosystem of this reference architecture 🎉
+This accelerator is a command line tool for generating SSR, SSG & Micro-App type of applications. This enables you to setup a working Micro Frontend or SPA development ecosystem with essential tooling for great dev experience and delivery quality.
 
-- **Development Environment:** Storybook integrated for developing and showcasing components.
-- **Flow typed:** All components are FlowTyped and Flow Type checked.
+This will help project teams in building applications with great quality, by giving them more time to focus on business problems rather than web development chores.
+
+## Ecosystem of this reference architecture generator  🎉
+
+- **Scalable Architecture:** Generate SSG, SSR and Micro-App.
+- **Development Environment:** Monorepo setup along with Storybook integrated for developing and showcasing components.
+- **Micro Frontend:** Develop Micro Frontend architecture with Module Federation.
 - **Static Code Quality checks and formatting:** Javascript and CSS linting using Eslint, StyleLint and Prettier.
-- **Component scaffolding:** Consistently generate components using Plop.
-- **Git Hooks:** Pre-commit, Pre-push and pre-publish using Husky.
-- **Unit testing framework:** with Jest and Enzyme.
+- **Component scaffolding:** Consistently generate components, services and pages using [Generate-Plop](https://github.com/pagesource/component-generator).
+- **Git Hooks:** Pre-commit, Pre-push using Husky.
+- **Testing:** Unit testing with Jest, RTL and Test Cafe for E2E.
 - **Theme and Styling:** with Styled Components.
-- **Next.js:** to render react application server side and more.
-- **PWA:** application.
-- **Dynamic Authoring:** of pages with headless CMS.
+- **Next.js:** To develop SSR and SSG with great ease.
+- **PWA:** Develop offline apps or just performant.
+- **Authoring:** Made easy with Markdown-to-JSX.
+- **Mocking:** Mock REST and GraphQl APIs.
+- **Localization:** Switch content based on language preference.
+- **State Management:** Lightest state management with Context APi and [Smart-Context](https://www.npmjs.com/package/smart-context).
+- **Data Fetching:** Change the old way of Data Fetching with [React Query](https://react-query.tanstack.com/).
+- **Type Safe:** TypeScript by Default.
+
 
 ## Main Technology Dependencies
 
 1. React
 2. Next.js
-3. Redux
+3. Turborepo
 4. Node.js
+4. Python
 
-## Installation
-
-Fork the repository & install dependencies using the yarn/npm command line tools.
+## Uses
 
 ```sh
-yarn install
-yarn run flow:install
+    npx create-universal-react
 ```
 
-flow:install will search the [`libdef`](https://github.com/flow-typed/flow-typed/blob/master/README.md) repo and download all the libdefs that are relevant for our project and install them for us.
+This will run the universal-react CLI, then you can simply interact with command-prompt to generate 3 different kind of applications in a Monorepo structure.
 
 ### Contributors
 
