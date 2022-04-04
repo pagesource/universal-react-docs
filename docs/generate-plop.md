@@ -48,7 +48,7 @@ Based on all details provided generate-tool will create follwoing files:
  - ````index.ts```` Export statement for the component.
  - ````{name}.ts````React component
  - ````tests/{name}.test.ts```` Unit test basic structure for the component using [React Test Library](https://testing-library.com/docs/react-testing-library/intro/)
- - ````{name}.style.ts```` Style file for the component using [Styled Component framework](https://styled-components.com/)
+ - ````{name}.style.ts```` Style file for the component using [Stitches Styling Library](https://stitches.dev/)
  - ````{name}.story.ts```` [Storybook](https://storybook.js.org/) created for the component.
  
 ### Hooks
@@ -64,7 +64,8 @@ You can create [Next pages](https://nextjs.org/docs/basic-features/pages).
  - You will need to provide the name of the page.
  - You can provide directory where you want to create the page, default directory 
     is ````src/pages````.
- - Tool will create ````index.ts```` Export statement for the custom hook.
+ - Tool will create ````index.ts```` Export statement for the template.
+ - ````{name}.ts````If Template doesn't exists, it will create a template in the dir ````src/components/templates````
  - It will update the route as well in ````src/routes/paths.ts```` file.
 
 ### Stores
