@@ -1,8 +1,6 @@
 module.exports = {
   someSidebar: {
-    Introduction: ['intro', 'storybook' ],
-    Generators: ['universal-react','generator'],
-    Features: ['qualiy-control','smart-context','unit-testing','design-system','loader','web-component','semantic','logger'],
-    'Optional Features':['base-path','module-federation'],
+    Introduction: ['intro' ],
+    Features: ['qualiy-control','smart-context','unit-testing','design-system','loader','web-component','logger', 'generate-plop', 'module-federation'],
   },
 };
