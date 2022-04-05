@@ -49,6 +49,13 @@ This will help project teams in building applications with great quality, by giv
 
 This will run the universal-react CLI, then you can simply interact with command-prompt to generate 3 different kind of applications in a Monorepo structure.
 
+[![CLI Generator Features by Rakesh Kumar 10](https://s7.gifyu.com/images/Banner018d3b1cbb27ffe53f.jpg)](https://web.microsoftstream.com/video/3b7ca6eb-d0ac-47e9-819b-d3e5e398ba09 "CLI Generator Features by Rakesh Kumar 10")
+
+### Pre Requisites
+1. Node >= 14.17.6
+2. NPM >= 7.0.0
+3. Python Latest Version
+
 ### Contributors
 
 This project exists thanks to all the people who contribute.

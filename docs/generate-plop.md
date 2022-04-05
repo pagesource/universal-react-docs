@@ -1,6 +1,8 @@
 
 # Generate Plop
 
+[![Generate-plop Introduction by Khushboo Kumari](https://s7.gifyu.com/images/Banner0395df38ffe0484140.jpg)](https://web.microsoftstream.com/video/4508e6c4-7434-4247-a3a4-3a65e47f9352 "Generate-plop Introduction by Khushboo Kumari")
+
 Generate-plop is a simple, scalable and fast component generator. It can help 
 you to scaffold components, templates, hooks and pages simply by running few 
 cli commands. Automating the component creation process makes really easy for 
