@@ -1,5 +1,3 @@
-
-
 ---
 id: design-system
 title: Design System Integration
