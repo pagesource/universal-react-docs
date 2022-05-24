@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkuniversal_react_docs=self.webpackChunkuniversal_react_docs||[]).push([[330],{6032:function(e){e.exports=JSON.parse('{"label":"next","permalink":"/universal-react-docs/blog/tags/next","allTagsPath":"/universal-react-docs/blog/tags","count":1}')}}]);
