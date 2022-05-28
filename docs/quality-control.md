@@ -1,6 +1,6 @@
 ---
-id: qualiy-control
-title: qualiy-control
+id: quality-control
+title: Static Quality Control
 sidebar_label: Quality Control
 ---
 

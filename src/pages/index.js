@@ -12,16 +12,16 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        This accelerator is a command line tool for generating SSR, SSG & Micro-App type of applications. This enables you to setup a working Micro Frontend or SPA development ecosystem with essential tooling for great dev experience and delivery quality.
+        CLI tool for generating SSR, SSG & Micro-App type of applications. 
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Focus on What Matters!</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Lets you focus on business problems rather than web development chores by addressing Architecture, Tooling, Code Quality, Scaffolding, Testing, Best Practices and most importantly Developer experience. 
+        Lets you focus on business problems rather than web development chores. 
       </>
     ),
   },
@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Run <strong>npx create-universal-react</strong> This will run the create-universal-react CLI, then you can simply interact with command-prompt to generate 3 different kind of applications in a Monorepo structure.
+        Run <strong>npx create-universal-react</strong> This will run the create-universal-react CLI.
       </>
     ),
   },
@@ -45,8 +45,8 @@ function Feature({ imageUrl, title, description }) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 className="text--center">{title}</h3>
+      <p className="text--center">{description}</p>
     </div>
   );
 }

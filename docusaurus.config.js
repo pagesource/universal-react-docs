@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Universal React Docs',
+  title: 'Universal React',
   tagline:
     'An accelerator for great developer experience.',
   url: 'https://github.com/',
@@ -31,18 +31,7 @@ module.exports = {
     },
     footer: {
       style: 'light',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting Started',
-              to: 'docs/intro',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Universal React`,
+      copyright: `Copyright © ${new Date().getFullYear()}, Made with ♥ by XE Community of Publicis Sapient. <br />Documentation site built with <a href="https://docusaurus.io/">Docusaurus<a/>.`,
     },
   },
   presets: [
