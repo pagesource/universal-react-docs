@@ -15,5 +15,5 @@ Universal React accelerator has taken several steps to ensure the Adoption Readi
 
 Universal React accelerator can be adopted into your projects in multiple ways. 
 
-1. **Out of the box Adoption**: You can use `npx create-universal-react`to setup your project, if you are completely aligned with [Technology choices](/universal-react-docs/docs/features/). You can make necessary tweaks and adjust these choices post initial setup.
-2. **Clone The Generator**: You can clone the generator, customize it as per your organization needs.
+1. **Out of the box adoption**: You can use `npx create-universal-react`to setup your project, if you are completely aligned with [Technology choices](/universal-react-docs/docs/features/). You can make necessary tweaks and adjust these choices post initial setup.
+2. **Clone the Generator**: You can clone the generator, customize it as per your organization needs and publish it to artifactory.
