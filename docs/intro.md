@@ -28,6 +28,7 @@ This will run the universal-react CLI, then you can simply interact with command
 3. Turborepo
 
 ### Uses Prerequisites
+
 1. Node >= 14.17.6
 2. NPM >= 7.0.0
 3. Python Latest Version

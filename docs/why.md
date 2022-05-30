@@ -15,7 +15,5 @@ title: Why you need this generator?
 3. Attention to Developer experience for great productivity.
 4. Preservation and replication of low-level best practices. 
 
-## How does Universal React addresses above concerns? 
-
 With **Reuse, Replicate and Reduce**  philosophy at its core Universal React is an accelerator to generate SSR, SSG or Micro-Apps with essential tooling to enable great dev experience and solution quality.
 
