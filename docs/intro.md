@@ -19,6 +19,14 @@ This will help project teams in building applications with great quality, by giv
 
 This will run the universal-react CLI, then you can simply interact with command-prompt to generate 3 different kind of applications in a Monorepo structure.
 
+## Execution flow of generator
+
+Following flow chart explains the workings of generator. 
+
+![Execution flow of Universal React generator](/img/universal-react-generator-2x.png)
+
+## CLI walk-through 
+
 [![CLI Generator Features by Rakesh Kumar 10](https://s7.gifyu.com/images/Banner018d3b1cbb27ffe53f.jpg)](https://web.microsoftstream.com/video/3b7ca6eb-d0ac-47e9-819b-d3e5e398ba09 "CLI Generator Features by Rakesh Kumar 10")
 
 ## Main Tech Dependencies

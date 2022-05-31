@@ -26,9 +26,3 @@ There are 2 ways you can achieve Micro Frontend in this ecosystem.
     1. You are not loading too many Micro Apps on a page. 
     2. You don't want to change configurations of Micro App to support Module Federation. 
 2. **Module Federation**: Multiple separate builds should form a single application. These separate builds should not have dependencies between each other, so they can be developed and deployed individually. Learn more [here](/universal-react-docs/docs/module-federation/).
-
-## Execution flow of generator
-
-Following flow chart explains the workings of generator. 
-
-![Execution flow of Universal React generator](/img/universal-react-generator-2x.png)
