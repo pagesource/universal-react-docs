@@ -18,6 +18,15 @@ title: Why you need Universal React?
 With **Reuse, Replicate and Reduce**  philosophy at its core Universal React is an accelerator to generate SSR, SSG or Micro-Apps with essential tooling to enable great dev experience and solution quality.
 
 ## Industry Comparison 
+|  | Create react app | Create Next app | Universal react app |
+| ------ | ------ |  ------ | ------ |
+| SSR, SSG | No | Yes | Yes
+| MicroApp | No | No | Yes
+| Configurability | Not much room for configuration | Almost everything is configurable | Almost everything is configurable
+| Monorepo support | Not out of the box | Not out of the box | Yes, comes with turborepo setup
+| Typescript | Yes | Yes | Yes
+| Inbuilt Unit Testing, Storybook setup | No | No | Yes
+| Optional Features, like E2E, PWA | No | No | Yes
 
 ## Impact and Efficiency 
 
