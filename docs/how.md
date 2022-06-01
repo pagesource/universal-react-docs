@@ -27,6 +27,13 @@ There are 2 ways you can achieve Micro Frontend in this ecosystem.
 
 1. **Micro-App Loader**: A small NPM package to load any React micro app or Web Component into a given container. Learn more [here](/universal-react-docs/docs/loader/).
 This approach is ideal when:
-    1. You are not loading too many Micro Apps on a page. 
+    1. You are not loading too many Micro Apps on a stitching layer. 
     2. You don't want to change configurations of Micro App to support Module Federation. 
-2. **Module Federation**: Multiple separate builds should form a single application. These separate builds should not have dependencies between each other, so they can be developed and deployed individually. Learn more [here](/universal-react-docs/docs/module-federation/).
+
+2. **Module Federation**: Multiple separate builds should form a single application. These separate builds should not have dependencies between each other, so they can be developed and deployed individually. 
+This approach is ideal when:
+    1. You are loading too many Micro Apps on a stitching layer. 
+    2. You want to minimize the JS footprint of common libraries between micro apps and stitching layer. 
+    2. You have flexibility to change configurations of Micro App to support Module Federation.
+
+Learn more [here](/universal-react-docs/docs/module-federation/).
