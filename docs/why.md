@@ -10,8 +10,8 @@ title: Why you need Universal React?
 4. Overall lack of efficiency, as replication of best practices isn’t easy. 
 
 ## How does Universal React addresses above concerns? 
-1. Instant initial setup of essential solutions for enterprise scale React applications. 
-2. Continuous value addition beyond initial setup through evolving accelerators.
+1. Instant initial setup of essential tools for enterprise scale React applications. 
+2. Continuous value addition beyond initial setup through evolving accelerator.
 3. Attention to Developer experience for great productivity.
 4. Preservation and replication of low-level best practices. 
 
@@ -21,4 +21,6 @@ With **Reuse, Replicate and Reduce**  philosophy at its core Universal React is 
 
 ## Impact and Efficiency 
 
-## 
+Not only Universal React saves 100s of initial setup hours, it brings in efficiency by reducing the effort to explore solutions, tool and best practices. 
+
+Lets take an example: If you 
