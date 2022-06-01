@@ -7,22 +7,24 @@ This accelerator is an highly opinionated collection of tools and best practices
 
 ## Ecosystem of this reference architecture generator  🎉
 
-- **Development Environment:** Monorepo setup with [Turborepo](https://turborepo.org/).
-- **Next.js:** to develop SSR and SSG with great ease.
-- **Micro Frontend:** architecture with [Module Federation](https://webpack.js.org/concepts/module-federation/).
-- **Component scaffolding:** consistently generate components, services and pages using [Generate-Plop](https://github.com/pagesource/component-generator).
-- **State Management:** lightest state management with Context APi and [Smart-Context](https://www.npmjs.com/package/smart-context).
-- **Remote Data:** change the old way of using Remote Data with [React Query](https://react-query.tanstack.com/).
-- **Unit Testing:** with Jest, [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) and Many custom testing utilities.
-- **End 2 End Testing Automation:** using [Test Cafe](https://testcafe.io/).
-- **Theme and Styling:** with CSS-in-JS using [Stitches](https://stitches.dev/).
-- **Generic Component Library:** with basic building blocks via [Next UI](https://nextui.org/).
-- **Component Browsing:** development and testing with [Storybook](https://storybook.js.org/).
-- **Git Hooks:** to validate changes on Pre-commit, Pre-push using [Husky](https://typicode.github.io/husky/#/).
-- **PWA:** for offline apps using [Workbox](https://developer.chrome.com/docs/workbox/).
-- **Authoring:** made easy with [Markdown-to-JSX](https://www.npmjs.com/package/markdown-to-jsx).
-- **Scaffolding:** of code using [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/).
-- **Type Safe:** by default using [TypeScript](https://www.typescriptlang.org/).
-- **Mocking:** Mock REST and GraphQl APIs.
-- **Localization:** Switch content based on language preference.
-- **Static Code Quality checks and formatting:** Javascript and CSS linting using Eslint, StyleLint and Prettier.
+| Feature | Based on | Optional | 
+| ------ | ------ |  ------ | 
+| Monorepo development environment | [Turborepo](https://turborepo.org/) | No |
+| SSR & SSG | [Next.js](https://nextjs.org/) | No | 
+| Micro Frontend | [Module Federation](https://webpack.js.org/concepts/module-federation/) | No
+| Component Scaffolding | [Generate-Plop](https://github.com/pagesource/component-generator) | Yes
+| State Management | [Smart-Context](https://www.npmjs.com/package/smart-context) | No
+| Remote Data | [React Query](https://react-query.tanstack.com/) | No
+| Unit Testing | [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) | No |
+| E2E Testing automation | [Test Cafe](https://testcafe.io/) | Yes |
+| Theme & Styling | [Stitches](https://stitches.dev/) | No 
+| Generic Component Library | [Next UI](https://nextui.org/) | No |
+| Component Browsing | [Storybook](https://storybook.js.org/). | No |
+| Git Hooks | [Husky](https://typicode.github.io/husky/#/) | No |
+| PWA | [Workbox](https://developer.chrome.com/docs/workbox/)  | Yes
+|Authoring | [Markdown-to-JSX](https://www.npmjs.com/package/markdown-to-jsx) | No |
+| Scaffolding | [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) | No | 
+| Typesafe | [TypeScript](https://www.typescriptlang.org/). | No |
+|Mocking | [GraphQl](https://graphql.org/) & REST APIs | No
+|Localization |NA | No|
+|Code quality and formatting | Eslint, StyleLint and Prettier | No|
