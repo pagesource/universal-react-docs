@@ -6,23 +6,17 @@ title: How it works?
 There are 2 Key Pillars of Universal React.
 
 ## 1. Instant initial setup
-
 React developers can run `npx create-universal-react` generator for setting up Micro Frontend and/or SPA architecture with essential tooling instantly. 
 ## 2. On-demand addition of optional features 
 
 React developers can continuously improve their project by running `npx create-universal-react` generator again for adding optional features like mocking, end-to-end testing or even new projects to their evolving applications. 
 
 ## Architecture Overview
-
 Using this generator you can setup and evolve a project into a combination of following architecture types. 
 
 ![Architecture Types with Universal React generator](/img/universal-react-arch-types-2x.png)
 
 ### How does Universal React achieve Micro Frontend? 
-
-
-
-
 There are 2 ways you can achieve Micro Frontend in this ecosystem. 
 
 1. **Micro-App Loader**: A small NPM package to load any React micro app or Web Component into a given container. Learn more [here](/universal-react-docs/docs/loader/).
