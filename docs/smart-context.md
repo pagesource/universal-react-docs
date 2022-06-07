@@ -1,8 +1,9 @@
 ---
 id: smart-context
-title: smart-context
-sidebar_label: Smart Context
+title: Smart Context
 ---
+
+State management is very important in React applications and often we tend to pick a complex solution for it. In Micro Frontend architecture the need for complex state management is even further reduced as application state is getting smaller with Micro Apps. Universal React by default recommends an in-house light wrapper on top of React's native Context API. 
 
 # smart-context
 

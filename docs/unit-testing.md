@@ -1,16 +1,16 @@
 ---
 id: unit-testing
-title: unit-testing
-sidebar_label: Unit Testing
+title: Unit Testing with RTL
 ---
 
-# Unit testing with RTL
+Universal React is configured to have Jest and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for Unit testing. There are many custom utilities available to make your Unit Testing developer experience faster.
+
 ## Jest setup file
- Developers can add global test features,enviroment,mocks in the file config\jest\jest.setup.js
+ Developers can add global test features, environment, mocks in the file config\jest\jest.setup.js
 ## Global mock setup
 Mocks for files such as jpg, jpeg, png, gif, eot, otf, webp, svg, ttf, woff, woff2, mp4, webm, wav, mp3, m4a, aac, oga and stylesheets are configured
 ## git hooks
-pre-push testing is added in husky
+pre-push unit testing is configured using husky
 ## Test Util Functions
 
 | Test Util Functions                    | Description               |
