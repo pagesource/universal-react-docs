@@ -36,6 +36,7 @@ With **Reuse, Replicate and Reduce**  philosophy at its core Universal React is 
 | Quality control config | No | No | Yes
 | E2E automation | No | No | Yes, with Test Cafe
 | PWA | No | No | Yes, with Workbox
+| VS Code Config | No | No | Yes, extensions recommendations and config
 
 ## Impact and Efficiency 
 

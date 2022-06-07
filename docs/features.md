@@ -26,5 +26,6 @@ This accelerator is an highly opinionated collection of tools and best practices
 | Scaffolding | [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) | No | No
 | Typesafe | [TypeScript](https://www.typescriptlang.org/). | Yes | No
 | Mocking | [GraphQl](https://graphql.org/) & REST APIs | Yes | Yes
-| Localization and Logging |NA | Yes | No
+| Localization and Logging | NA | Yes | No
 | Code quality and formatting | Eslint, StyleLint and Prettier | Yes | No 
+| VS Code Extensions  | Recommended Extensions and Config | Yes | Yes
