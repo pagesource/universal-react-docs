@@ -5,6 +5,8 @@ title: Universal React
 
 [![Forks](https://img.shields.io/github/forks/pagesource/universal-react-v2)](https://img.shields.io/github/forks/pagesource/universal-react-v2) [![Stars](https://img.shields.io/github/stars/pagesource/universal-react-v2)](https://img.shields.io/github/stars/pagesource/universal-react-v2) [![License](https://img.shields.io/github/license/pagesource/universal-react-v2)](https://img.shields.io/github/license/pagesource/universal-react-v2)
 
+![UniversalReact](/img/logo.svg)
+
 An accelerator for setting-up scalable frontend architecture with React and Next.js.
 
 This accelerator is a command line tool for generating SSR, SSG & Micro-App type of applications. This enables you to setup a full-fledged Micro Frontend development ecosystem with essential tooling for great dev experience and delivery quality.

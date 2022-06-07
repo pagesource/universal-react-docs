@@ -18,24 +18,24 @@ title: Why you need Universal React?
 With **Reuse, Replicate and Reduce**  philosophy at its core Universal React is an accelerator to generate SSR, SSG or Micro-Apps with essential tooling to enable great dev experience and solution quality.
 
 ## Industry Comparison 
-|  | Create react app | Create Next app | Universal react app |
+|  | Create React App | Create Next App | Universal React App |
 | ------ | ------ |  ------ | ------ |
 | SSR, SSG | No | Yes | Yes
-| MicroApp | No | No | Yes
-| Configurability | Not much room for configuration | Almost everything is configurable | Almost everything is configurable
-| Monorepo support | Not out of the box | Not out of the box | Yes, comes with turborepo setup
+| MicroApp | Yes | No | Yes
+| Configurability | Low | High | Very High
+| Monorepo setup | No | No | Yes, with Turborepo
 | Typescript | Yes | Yes | Yes
-| Inbuilt Unit Testing setup | No | No | Yes
-| Inbuilt Storybook setup | No | No | Yes
-| Integrated design system | No | No | Yes, using Nextui
-| Inbuilt Loader | No | No | Yes 
-| Smart Context | No | No | Yes
-| Integrated browser & server logger | No | No | Yes
-| Integrated Component generator | No | No | Yes, using generate-plop
-| Module Federation base setup | No | No | Yes
-|Quality control cofiguration setup | No | No | Yes
-| E2E automation | No | No | Yes, using Test Cafe
-| PWA | No | No | Yes, using workbox
+| Unit Testing setup | Yes | Yes | Yes
+| Inbuilt Storybook | No | No | Yes
+| Design system | No | No | Yes
+| Micro App Loader | No | No | Yes 
+| State Management | No | No | Yes, with Smart Context
+| Browser & Server logger | No | No | Yes
+| Component generator | No | No | Yes, with Generate Plop
+| Module Federation | No | No | Yes
+| Quality control config | No | No | Yes
+| E2E automation | No | No | Yes, with Test Cafe
+| PWA | No | No | Yes, with Workbox
 
 ## Impact and Efficiency 
 
