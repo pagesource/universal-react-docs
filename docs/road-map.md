@@ -12,5 +12,6 @@ There are many additional capabilities we are looking forward to add. Some of th
 5. Analytics  
 6. Redis integration with SSR arch type. 
 7. Edge Computing. 
+8. Enhance component generator to use custom templates.
 
 

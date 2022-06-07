@@ -22,14 +22,14 @@ With **Reuse, Replicate and Reduce**  philosophy at its core Universal React is 
 | ------ | ------ |  ------ | ------ |
 | SSR, SSG | No | Yes | Yes
 | MicroApp | Yes | No | Yes
-| Configurability | Low | High | Very High
+| Customization | Low | High | Very High
 | Monorepo setup | No | No | Yes, with Turborepo
 | Typescript | Yes | Yes | Yes
 | Unit Testing setup | Yes | Yes | Yes
 | Inbuilt Storybook | No | No | Yes
 | Design system | No | No | Yes
 | Micro App Loader | No | No | Yes 
-| State Management | No | No | Yes, with Smart Context
+| State Management Solution | No | No | Yes, with Smart Context
 | Browser & Server logger | No | No | Yes
 | Component generator | No | No | Yes, with Generate Plop
 | Module Federation | No | No | Yes
